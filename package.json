@@ -1,0 +1,10 @@
+{
+  "name": "leetcode-jizu",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Jizu Sun <jizu.sun@sap.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^5.14.1"
+  }
+}
