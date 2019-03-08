@@ -2,7 +2,8 @@ module.exports = {
     'env': {
         'browser': true,
         'commonjs': true,
-        'es6': true
+        'es6': true,
+        "jest": true
     },
     'extends': 'eslint:recommended',
     'globals': {
@@ -15,7 +16,7 @@ module.exports = {
     'rules': {
         'indent': [
             'error',
-            4
+            2
         ],
         'linebreak-style': [
             'error',
@@ -27,7 +28,7 @@ module.exports = {
         ],
         'semi': [
             'error',
-            'never'
+            'always'
         ]
     }
-}
+};
