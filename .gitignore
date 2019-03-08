@@ -1,6 +1,7 @@
 node_modules
 *.log
 .idea/
+.coveralls.yml
 
 # https://github.com/github/gitignore/blob/master/Node.gitignore
 
