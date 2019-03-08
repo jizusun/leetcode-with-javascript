@@ -1,5 +1,7 @@
 ## Practice LeetCode with JavaScript
 
+[![Build Status](https://travis-ci.com/jizusun/leetcode-jizu.svg?branch=master)](https://travis-ci.com/jizusun/leetcode-jizu)
+[![Coverage Status](https://coveralls.io/repos/github/jizusun/leetcode-jizu/badge.svg?branch=master)](https://coveralls.io/github/jizusun/leetcode-jizu?branch=master)
 
 ### JavaScript Runtime on LeetCode
 > - nodejs 10.15.0

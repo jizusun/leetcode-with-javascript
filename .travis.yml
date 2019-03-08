@@ -2,7 +2,8 @@ sudo: false
 language: node_js
 node_js:
   - '10'
-  - node
+
+cache: yarn
 
 jobs:
   include:
