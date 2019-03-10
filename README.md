@@ -15,7 +15,7 @@ I use [Jest](https://jestjs.io) to test the programs, the test cases are defined
 ```sh
 yarn test                    # test all test cases
 ```
-References:
+CI Tutorials:
 - [Travis CI Docs](https://docs.travis-ci.com/user/languages/javascript-with-nodejs/)
 - [Coveralls Docs](https://docs.coveralls.io/javascript)
 - [Javascript Quality Control with Jest 🤹 and ESLint ✨](https://medium.com/asos-techblog/javascript-quality-control-with-jest-and-eslint-b888eeb4b0c4)
@@ -28,8 +28,9 @@ References:
 
 
 ### References
+- [Learn Data Structures with Unit Testing](https://github.com/jizusun/learn-data-structures-with-javascript)
 - [Blog: LeetCode Solutions and Explanations (Java)](http://www.goodtecher.com/leetcode-solutions-explanations/)
 - [Gitbooks: 算法珠玑——一个最精简的题库](https://soulmachine.gitbooks.io/algorithm-essentials/content/java/)
 - [Google Search: 如何刷leetcode](https://www.google.com/search?q=%E5%A6%82%E4%BD%95%E5%88%B7+leetcode)
-
+- geeksforgeeks, lintcode
 
