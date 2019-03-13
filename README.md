@@ -16,11 +16,13 @@ I use [Jest](https://jestjs.io) to test the programs, the test cases are defined
 ```sh
 yarn test                    # test all test cases
 ```
+
 CI Tutorials:
 - [Travis CI Docs](https://docs.travis-ci.com/user/languages/javascript-with-nodejs/)
 - [Coveralls Docs](https://docs.coveralls.io/javascript)
 - [Javascript Quality Control with Jest 🤹 and ESLint ✨](https://medium.com/asos-techblog/javascript-quality-control-with-jest-and-eslint-b888eeb4b0c4)
 - [Start measuring code coverage with Jest, Travis CI and Coveralls](https://medium.com/@ollelauribostr/start-measuring-coverage-with-jest-travis-ci-and-coveralls-1867928aca42)
+- Git commit hooks: [Running Jest Tests Before Each Git Commit](https://benmccormick.org/2017/02/26/running-jest-tests-before-each-git-commit/)
 ### Inspired by
 - https://github.com/MrHuxu/leetcode: JavaSciript solutions with tests
 - https://github.com/invzhi/LeetCode: with Anki Deck

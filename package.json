@@ -22,7 +22,6 @@
   },
   "husky": {
     "hooks": {
-      "pre-push": "npm test",
       "pre-commit": "lint-staged"
     }
   },
@@ -30,7 +29,8 @@
     "linters": {
       "*.js": [
         "eslint --fix",
-        "git add"
+        "git add",
+        "jest --bail --findRelatedTests"
       ]
     }
   }
