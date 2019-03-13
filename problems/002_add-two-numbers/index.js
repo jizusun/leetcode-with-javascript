@@ -42,4 +42,4 @@ var addTwoNumbers = function (l1, l2) {
 
 module.exports = addTwoNumbers;
 
-// https://leetcode.com/problems/add-two-numbers/discuss/151365/Concise-JavaScript-solution
+// TODO: https://leetcode.com/problems/add-two-numbers/discuss/151365/Concise-JavaScript-solution
