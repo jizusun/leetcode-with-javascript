@@ -8,17 +8,19 @@
     "test": "jest",
     "coveralls": "jest --coverage && cat ./coverage/lcov.info | coveralls && codecov",
     "test:watch": "jest --watch",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "debug": "npx --node-arg=--inspect-brk=0.0.0.0:8008 jest --runInBand"
   },
   "devDependencies": {
     "codecov": "^3.2.0",
     "coveralls": "^3.0.3",
     "eslint": "^5.14.1",
     "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-prettier": "^3.0.1",
     "husky": "^1.3.1",
     "jest": "^24.1.0",
     "lint-staged": "^8.1.5",
-    "prettier": "1.16.4"
+    "prettier": "^1.16.4"
   },
   "husky": {
     "hooks": {

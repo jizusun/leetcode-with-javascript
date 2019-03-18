@@ -10,10 +10,15 @@ module.exports = {
         'Atomics': 'readonly',
         'SharedArrayBuffer': 'readonly'
     },
+    "plugins": ["prettier"],
+    "rules": {
+        "prettier/prettier": "error"
+    },
     'parserOptions': {
         'ecmaVersion': 2018
     },
     'rules': {
+        'max-len': ["error", { "code": 80 }],
         'indent': [
             'error',
             2
