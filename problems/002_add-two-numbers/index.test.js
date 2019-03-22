@@ -11,7 +11,6 @@ const {LinkedList} = require('../../lib/LinkedList');
  * except the number 0 itself.
  */
 
-
 test('No carry, same amount of digits', () => {
   const listNode1 = new LinkedList([2, 4, 5]);
   const listNode2 = new LinkedList([5, 2, 4]);
