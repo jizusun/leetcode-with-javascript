@@ -18,7 +18,6 @@ module.exports = {
         'ecmaVersion': 2018
     },
     'rules': {
-        'max-len': ["error", { "code": 80 }],
         'indent': [
             'error',
             2

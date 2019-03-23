@@ -6,12 +6,12 @@
  */
 // eslint-disable-next-line no-unused-vars
 var lengthOfLongestSubstring = function(s) {
-  let result = 1;
+  let result = 0;
   let map = new Map();
 
-  for(let i = 0, j = 1; i < s.length; j++) {
+  for(let i = 0, j = 1; j < s.length; j++) {
     if (map.has(s[j])) {
-      i = map.get(s[j]) + 1;
+      i = map.get(s[j]);
     }
     map.set(s[j], j);
     result = j-i > result ? j-i : result;
