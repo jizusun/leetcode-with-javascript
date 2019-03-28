@@ -25,3 +25,10 @@ test('the answer is empty with the length of 0, when the given string is a empty
   expect(lengthOfLongestSubstring('')).toEqual(0);
 });
 
+test('the answer is a whitespace with the length of 1, when the given string is a whitespace', () => {
+  expect(lengthOfLongestSubstring(' ')).toEqual(1);
+});
+
+test('the answer is ab with the length of 2, when the given string is abba', () => {
+  expect(lengthOfLongestSubstring('abba')).toEqual(2);
+});
