@@ -5,7 +5,10 @@ module.exports = {
         'es6': true,
         "jest": true
     },
-    'extends': 'eslint:recommended',
+    'extends': [
+      'eslint:recommended',
+      'prettier'
+    ],
     'globals': {
         'Atomics': 'readonly',
         'SharedArrayBuffer': 'readonly'
