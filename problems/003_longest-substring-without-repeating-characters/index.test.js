@@ -1,9 +1,4 @@
-/*
-*/ 
-
-
 const lengthOfLongestSubstring = require('./index');
-
 
 test('the answer is abc with the length of 3, when the given string is abcabcbb', () => {
   expect(lengthOfLongestSubstring('abcabcbb')).toEqual(3);
@@ -31,4 +26,8 @@ test('the answer is a whitespace with the length of 1, when the given string is 
 
 test('the answer is ab with the length of 2, when the given string is abba', () => {
   expect(lengthOfLongestSubstring('abba')).toEqual(2);
+});
+
+test('the answer is mauxt with the length of 5, when the given string is tmmzuxt', () => {
+  expect(lengthOfLongestSubstring('tmmzuxt')).toEqual(5);
 });
