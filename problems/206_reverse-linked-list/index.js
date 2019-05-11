@@ -1,4 +1,5 @@
-/*---
+/*
+---
 created: 20190510
 updated: 
   - 20190511
@@ -12,7 +13,8 @@ solutions:
   - reverseListRecursive
     - runtime: 60 ms, beats 98.89%
     - memory: 35.4 MB, beats 15.38%
----*/
+---
+*/
 
 const {ListNode} = require('../../lib/LinkedList');
 

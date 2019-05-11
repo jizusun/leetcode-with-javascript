@@ -11,6 +11,35 @@
 
 Source: [LeetCode - What are the environments for the programming languages?](https://support.leetcode.com/hc/en-us/articles/360011833974-What-are-the-environments-for-the-programming-languages)
 
+### Front Matter
+The front matter concept is learnt from Jekyll: https://jekyllrb.com/docs/front-matter/
+
+The front matter must be the first thing in the file and must take the form of
+valid YAML set between triple-dashed lines within a valid JavaScript block
+comment
+
+Here is a basic example:
+```
+/*
+---
+created: 20190510
+updated: 
+  - 20190511
+tags: 
+  - recursive
+  - linked list
+solutions: 
+  - reverseList
+    - runtime: 52 ms, beats 99.80%
+    - memory: 35 MB, beats 47.37%
+  - reverseListRecursive
+    - runtime: 60 ms, beats 98.89%
+    - memory: 35.4 MB, beats 15.38%
+---
+*/
+```
+
+
 ### Topics
 
 https://leetcode.com/problemset/all/
