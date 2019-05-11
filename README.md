@@ -19,7 +19,7 @@ valid YAML set between triple-dashed lines within a valid JavaScript block
 comment
 
 Here is a basic example:
-```
+```yaml
 /*
 ---
 created: 20190510
