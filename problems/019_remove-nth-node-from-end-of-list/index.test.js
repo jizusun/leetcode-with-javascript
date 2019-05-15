@@ -1,4 +1,4 @@
-const removeNthFromEnd = require('./index');
+const { removeNthFromEndInOnePass: removeNthFromEnd } = require('./index');
 const {LinkedList} = require('../../lib/LinkedList');
 
 test('normal case', () => {
