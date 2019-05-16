@@ -11,6 +11,9 @@
     "lint": "eslint .",
     "debug": "npx --node-arg=--inspect-brk=0.0.0.0:8008 jest --runInBand"
   },
+  "dependencies" : {
+    "lib": "file:./lib/"
+  },
   "devDependencies": {
     "codecov": "^3.2.0",
     "coveralls": "^3.0.3",
