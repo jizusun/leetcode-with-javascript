@@ -5,7 +5,7 @@
   "author": "Jizu Sun <jizu.sun@sap.com>",
   "license": "MIT",
   "scripts": {
-    "test": "jest",
+    "test": "jest --verbose",
     "coveralls": "jest --coverage && cat ./coverage/lcov.info | coveralls && codecov",
     "test:watch": "jest --watch",
     "lint": "eslint .",
