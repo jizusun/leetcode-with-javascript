@@ -5,8 +5,8 @@
   "author": "Jizu Sun <jizu.sun@sap.com>",
   "license": "MIT",
   "scripts": {
-    "test": "jest --verbose",
-    "coveralls": "jest --coverage && cat ./coverage/lcov.info | coveralls && codecov",
+    "test": "jest",
+    "coveralls": "jest --verbose --coverage && cat ./coverage/lcov.info | coveralls && codecov",
     "test:watch": "jest --watch",
     "lint": "eslint .",
     "debug": "npx --node-arg=--inspect-brk=0.0.0.0:8008 jest --runInBand"
