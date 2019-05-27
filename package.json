@@ -9,9 +9,10 @@
     "coveralls": "jest --verbose --coverage && cat ./coverage/lcov.info | coveralls && codecov",
     "test:watch": "jest --watch",
     "lint": "eslint .",
-    "debug": "npx --node-arg=--inspect-brk=0.0.0.0:8008 jest --runInBand"
+    "debug": "npx --node-arg=--inspect-brk=0.0.0.0:8008 jest --runInBand",
+    "commit": "npx git-cz"
   },
-  "dependencies" : {
+  "dependencies": {
     "lib": "file:./lib/"
   },
   "devDependencies": {
@@ -20,6 +21,7 @@
     "eslint": "^5.14.1",
     "eslint-config-prettier": "^4.1.0",
     "eslint-plugin-prettier": "^3.0.1",
+    "git-cz": "^3.0.1",
     "husky": "^1.3.1",
     "jest": "^24.1.0",
     "lint-staged": "^8.1.5",
