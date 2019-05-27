@@ -25,6 +25,10 @@ Here is a basic example:
 created: 20190510
 updated: 
   - 20190511
+source: 
+  - https://leetcode.com/problems/single-number/ 
+level:
+  - easy
 tags: 
   - recursive
   - linked list

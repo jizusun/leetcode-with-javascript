@@ -2366,7 +2366,7 @@ levn@^0.3.0, levn@~0.3.0:
     prelude-ls "~1.1.2"
     type-check "~0.3.2"
 
-"lib@file:./lib/":
+"lib@file:./lib":
   version "0.0.0"
 
 lint-staged@^8.1.5:
