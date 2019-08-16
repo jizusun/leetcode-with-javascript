@@ -2,7 +2,6 @@ const {run} = require('lib');
 const index = require('./index');
 
 const runTests = (sort) => {
-
   it('should sort the array', ()=> {
     // const expected = 1;
     // const actual = singleNumber(nums); 
@@ -21,6 +20,5 @@ const runTests = (sort) => {
   	expect(actual).toEqual(expected);
   });
 };
-
 
 run(index, runTests);
