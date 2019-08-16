@@ -26,6 +26,8 @@ solutions:
 // https://jizusun.github.io/four-semesters-of-cs/#sorting-algorithms
 // https://sites.google.com/a/moundsviewschools.org/ap-computer-science/unit-13---searching-sorting
 
+// https://github.com/TheAlgorithms/Python/tree/master/sorts
+
 const swap = (arr, index1, index2) => {
   [ arr[index1], arr[index2] ] = [ arr[index2], arr[index1] ];
 };
