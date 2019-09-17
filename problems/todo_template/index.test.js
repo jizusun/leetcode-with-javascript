@@ -1,11 +1,11 @@
 const {run} = require('lib');
 const index = require('./index');
 
-const runTests = (singleNumber) => {
+const runTests = singleNumber => {
 
   it('placeholder', ()=> {
     const expected = 1;
-    const actual = singleNumber(nums); 
+    const actual = singleNumber(nums);
     expect(actual).toEqual(expected);
   });
 };
