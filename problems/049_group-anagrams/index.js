@@ -9,7 +9,7 @@ tags:
   - hash table
   - string
 solutions: 
-  - groupAnagrams
+  - groupAnagramsWithObjectAndReduce
     - runtime: 132 ms, beats 54.20%
     - memory: 45.6 MB, beats 47.37%
 ---
