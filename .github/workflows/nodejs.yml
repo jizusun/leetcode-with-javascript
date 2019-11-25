@@ -1,6 +1,6 @@
 name: Node CI
 
-on: [push]
+on: [push, pull_request] # Run on Push and Pull Requests
 
 jobs:
   build:
@@ -9,7 +9,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [10.x, 12.x]
+        node-version: [10.x] # Only run the 10.x build
 
     steps:
     - uses: actions/checkout@v1
@@ -17,20 +17,9 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-    - name: yarn install, test and coverage
+    - run: npm install -g yarn
+    - name: yarn install, build, and test
       run: |
-        yarn install
+        yarn
+        yarn build
         yarn test
-        yarn run coverage
-      env:
-        CI: true
-    - name: Coveralls
-      uses: coverallsapp/github-action@master
-      with:
-        github-token: ${{ secrets.github_token }}
-    - name: Codecov
-      uses: codecov/codecov-action@v1.0.2
-      with:
-        token: ${{secrets.CODECOV_TOKEN}} #required
-        flags: unittests #optional
-        name: codecov-umbrella #optional
