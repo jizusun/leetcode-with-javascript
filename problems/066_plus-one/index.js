@@ -44,8 +44,6 @@ var plusOne = function(digits) {
   } else {
     result[len-1] =  lastDigit + 1;
   }
-  
-  
   return result;
 };
 

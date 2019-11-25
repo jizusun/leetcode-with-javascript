@@ -24,4 +24,5 @@ const runTests = plusOne => {
     expect(actual).toEqual(expected);
   });
 };
+
 run(index, runTests);
