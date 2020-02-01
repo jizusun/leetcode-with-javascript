@@ -11,6 +11,11 @@
 
 Source: [LeetCode - What are the environments for the programming languages?](https://support.leetcode.com/hc/en-us/articles/360011833974-What-are-the-environments-for-the-programming-languages)
 
+### Record of Delibrate Practice
+
+- https://docs.google.com/document/d/13XPLCqfLW1Q4Ki5gvvspzLCSHY2zp5GrIxeLCu9WMrI/edit
+
+
 ### Front Matter
 The front matter concept is learnt from Jekyll: https://jekyllrb.com/docs/front-matter/
 
