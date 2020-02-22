@@ -8,5 +8,7 @@ const runTests = singleNumber => {
     const actual = singleNumber(nums);
     expect(actual).toEqual(expected);
   });
+
 };
+
 run(index, runTests);

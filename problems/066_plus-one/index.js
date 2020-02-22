@@ -28,13 +28,7 @@ var plusOne = function(digits) {
   const result = digits.slice(0);
   const len = digits.length;
   const lastDigit = result[len - 1];
-  if (lastDigit === 9) {
-    result[len-1]  = 0;
-    let idx = len - 2;
-    while(result[idx] === 9 && idx >= 0)  {
-      result[idx] = 0;
-      idx--;
-    }
+  if (lastDigit === 9) {     result[len-1]  = 0;     let idx = len - 2;     while(result[idx] === 9 && idx >= 0)  {      result[idx] = 0;       idx--;     }
     if (idx < 0) {
       result.unshift(1);
     }
